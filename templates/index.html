@@ -11,14 +11,14 @@
 </head>
 <body class="bg-black font-[poppins] h-screen ">
 <header>
-<nav class="bg-white p-5 shadow md:flex md:items-center md:justify-between">
+<nav class="bg-white p-5 shadow md:flex md:items-center md:static absolute top-[-100%] gap-8 md:justify-between">
 <div>
     <span class="text-2xl font-bold text-gray-800">Stellar Deed</span>
 </div>
 <div>
-<ul class="md:flex md:items-center ">
+<ul class="md:flex  md:items-center ">
     <li class="mx-4"> <a class="hover:text-blue-400" href=#home class="text-base ">Home</a></li>
-    <li class="mx-4"> <a class="hover:text-blue-400" href=#home class="text-base ">About</a></li>
+    <li class="mx-4"> <a class="hover:text-blue-400" href=#about class="text-base ">About</a></li>
     <li class="mx-4"> <a class="hover:text-blue-400" href=#home class="text-base ">Marketplace</a></li>
     <li class="mx-4"> <a class="hover:text-blue-400" href=#home class="text-base ">Cart</a></li>
     <li class="mx-4"> <a class="hover:text-blue-400" href=#home class="text-base ">Contact</a></li>
@@ -29,5 +29,17 @@
 </div>
 </nav>
 </header>
+<section id="home" class="home-section">
+<div class="h-screen grid grid-cols-2 align-middle justify-center  text-center ">
+    <div class="ml-9">
+        <h1 class="text-4xl text-white font-bold text-center pt-20 mt-44">Welcome to Stellar Deed</h1> 
+        <p class="text-white mt-2 justify-self-auto">Own the Universe - Authentic meteorites, asteroid fragments, and comet specimens. Certified space rocks from across the solar system delivered to your door.</p>
+        <button type="button" class="rounded-full text-white p-3 mt-4 bg-cyan-600 cursor-pointer hover:bg-violet-600 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300 ">Shop Now</button>
+    </div>
+    <div class="size-70">
+  <img src="../static/assets/planet.png" alt="Planet">
+    </div>
+</div>
+</section>
 </body>
 </html>
